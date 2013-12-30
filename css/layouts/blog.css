@@ -3,10 +3,14 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+h1 {color: #494580
+}
+body {
+    background-color: #aa8dc1;
+}
 a {
     text-decoration: none;
-    color: rgb(142, 142, 214);
+    color: rgb(177, 174, 203);
 }
 a:hover,
 a:focus {
@@ -25,12 +29,12 @@ a:focus {
     bottom: 0;
     width: 25%;
     margin-left: -25%;
-    background: rgb(24, 33, 61);
-    color: #fff;
+    background: rgb(255, 255, 255);
+    color: #494580;
 }
 
 .header {
-    margin: 50% 2em 0;
+    margin: 10% 2em 0;
     text-align: right;
 }
 
@@ -43,7 +47,7 @@ a:focus {
 }
 .brand-tagline {
     font-weight: 300;
-    color: rgb(142, 142, 214);
+    color: rgb(73, 69, 128);
 }
 
 .nav-list {
@@ -58,20 +62,20 @@ a:focus {
 }
 .nav-item a {
     background: transparent;
-    border: 3px solid rgb(103, 103, 180);
-    color: #fff;
+    border: 3px solid rgb(73, 69, 128);
+    color: #494580;
     margin-top: 1em;
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border: 3px solid rgb(142, 142, 214);
-    color: rgb(142, 142, 214);
+    border: 3px solid rgb(177, 174, 203);
+    color: rgb(73, 69, 128);
     text-decoration: none;
 }
 
 .content-subhead {
     text-transform: uppercase;
-    color: #aaa;
+    color: #ffffff;
     border-bottom: 1px solid #eee;
     padding: 0.4em 0;
     font-size: 80%;
@@ -88,7 +92,7 @@ a:focus {
 }
 .post-title {
     font-size: 2em;
-    color: #222;
+    color: #ffffff;
     margin-bottom: 0.2em;
 }
 .post-avatar {
@@ -98,11 +102,11 @@ a:focus {
 }
 .post-description {
     font-family: Georgia, "Cambria", serif;
-    color: #444;
+    color: #ffffff;
     line-height: 1.8em;
 }
 .post-meta {
-    color: #999;
+    color: #ffffff;
     font-size: 90%;
     margin: 0;
 }
